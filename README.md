@@ -10,7 +10,7 @@ after install the source code open Terminal to use these command line:
 - npm run dev or watch
 - php artisan serve
 - important( make sure the APP_URL in .env file same actually URL )
-- 
+
 ## Permission folder ( Linux | Mac)
 - sudo chmod -R 777 settings.json
 - sudo chmod -R 777 storage/app/public/images/
