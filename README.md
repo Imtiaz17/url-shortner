@@ -1,16 +1,19 @@
-# Laravel 8 with Vue 3 SPA Starter
+# Laravel VueJs URL Shortner SPA
 
-demo: https://idemonbd.github.io/laravel-vue-starter
+## installation :
+after install the source code open Terminal to use these command line:
+- composer install
+- cp .env.example .env
+- create new database and set the name in .env DB_DATABASE
+- php artisan key:generate
+- npm install
+- npm run dev or watch
+- php artisan serve
+- important( make sure the APP_URL in .env file same actually URL )
+- 
+## Permission folder ( Linux | Mac)
+- sudo chmod -R 777 settings.json
+- sudo chmod -R 777 storage/app/public/images/
 
-## Installation
-
-Run command one by one:
-
-     git clone https://https://github.com/idemonbd/laravel-vue-starter.git
-     cd laravel-vue-starter
-     copy .env.example .env
-     php artisan key:generate
-     composer install
-     npm install
-Enjoy.....!
-If you fevorite this repo, I will be happy...:
+## Contact me
+<a href='http://imtiaz.xyz' target="_blank">about me</a>
